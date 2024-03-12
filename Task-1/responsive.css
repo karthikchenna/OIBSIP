@@ -1,0 +1,52 @@
+@media (max-width: 1024px){
+    .main{
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+        margin-top: 0px;
+    }
+    .main-content{
+        width: 50%;
+    }
+    .description{
+        padding-left: 0px;
+    }
+    
+    .description h4{
+        font-size: 1.2rem;
+    }
+    .description h1{
+        font-size: 1.8rem;
+    }
+    .description p{
+        font-size: 1.2rem;
+    }
+    .main-content input{
+        width: 80%;
+    }
+    .main-image{
+        width: 35%;
+    }
+    .search-bar input{
+        width:100%;
+    }
+    .search-bar i{
+        padding-inline: 20px;
+    } 
+    .menu-section{
+        scale: 0.95;
+    }
+    .delivery{
+        margin-top: 0px;
+    }
+    .deliver-img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .deliver-img img{
+        width: 100%;
+    }
+   
+    
+}

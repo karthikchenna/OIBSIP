@@ -1,0 +1,436 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Pacifico&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap')
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.spacerr{
+    height: 50vh;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: "Pacifico", cursive;
+    font-family: "Roboto", sans-serif;
+}
+/* ------utility classes------------ */
+ul li{
+    list-style: none;
+}
+a{
+    text-decoration: none;  
+}
+.hero-section{
+    width: 100%;
+}
+h1{
+    font-size: 3rem;
+}
+h2{
+    font-size: 2.5rem;
+}
+h3{
+    font-size: 2rem;
+}
+h4{
+    font-size: 1.5rem;
+}
+p{
+    font-size: 1.25rem;
+}
+/* ------------nav bar----------- */
+nav{
+/*     background-color: grey; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 60px;
+    margin-top: 10px;
+}
+.nav-logo img{
+    height: 50px;
+/*    margin-left: 20px;*/
+}
+.nav-links{
+    width: 50%;
+    display: flex;
+    justify-content: right;
+}
+.nav-links a{
+    color: black;
+    font-weight: 600;
+}
+.nav-links ul li{
+    display: inline;
+    margin-right: 30px;
+    color: black;
+    border-bottom: 2px solid transparent;
+}
+.nav-links ul li:hover{
+    border-bottom: 2px solid orange;
+}
+
+.nav-butons{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 30%;
+}
+#shopping-bag{
+    font-size: 1.4rem;
+    color: orange;
+    padding: 8px 15px;
+}
+.primary-btn{
+    padding: 10px 25px;
+    background-color: transparent;
+    color: black;
+    font-weight: 600;
+    border: 1px solid black;
+    border-radius: 4px;
+    transition: all 0.3s;
+}
+.primary-btn:hover{
+    border: 1px solid transparent;
+    background-color: lightgray;
+}
+.secondary-btn{
+    padding: 10px 25px;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 4px;
+    background-color: rgba(8, 85, 8, 0.76);
+}
+
+/* ----hero section----- */
+.main{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-top: 20px;
+    /* background-color: yellow; */
+
+}
+.main-content{
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.description{
+    padding-left: 40px;
+}
+
+.description h4{
+    color: orange;
+    margin-bottom: 0;
+    font-family: "Pacifico", cursive;
+}
+.description h1{
+    font-family: "Pacifico", cursive;
+    margin-top: 10px;
+    color: green;
+    margin-bottom: 0;
+}
+.description p{
+    margin-top: 20px;
+    color: grey;
+}
+
+.main-content input{
+    height: 50px;
+    width: 70%;
+    background-color: lightgray;
+    border: none;
+    outline: none;
+}
+.main-image{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+/*    padding: 30px;*/
+/*     background-color: red; */
+}
+.main-image img{
+    transition:0.4s linear;
+    scale: 0.8;
+/*    animation: rotate 15s infinite;*/ 
+}
+
+
+@keyframes rotate{
+    0% {
+        transform: rotate(0deg);
+    }
+    50%{
+        transform: rotate(180deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.main-image img:hover{
+    transform: translateX(-20px);
+    scale: 0.9;
+}
+ .search-bar{
+    display: flex;
+    align-items: center;
+    background-color: green;
+    width: 90%;
+    border-radius: 6px;
+}
+
+.search-bar input{
+    font-size: 1.2rem;
+    padding-left: 10px;
+    width: 90%;
+    border-radius: 6px 0 0 6px;
+}
+.search-bar input::placeholder{
+    padding-left: 20px;
+    font-size: 1rem;
+}
+.search-bar i{
+    color: #fff;
+    font-size: 1.5rem;
+    padding-left:15px;
+} 
+
+
+/* --------menu sectoin------ */
+.menu-section{
+    flex-wrap: wrap ;
+    background: rgb(172,154,162);
+    background: radial-gradient(circle, rgba(172,154,162,1) 0%, rgba(212,225,240,1) 100%);
+    border-radius: 8%;
+    box-shadow: 2px 5px 13px black; inset: ;
+/*    margin-bottom: 100px;*/
+}
+.menu-title{
+    /* background-color:   yellow; */
+    line-height: 5px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: underline;
+}
+.non-veg-heading{
+    padding-left: 100px;
+    background-color: grey;
+}
+.non-veg{
+    display: flex;
+    flex-wrap: wrap ;
+    margin-top: -30px;
+    align-items: center;
+    justify-content: space-evenly;
+    /* background-color: cyan; */
+    width: 100%;
+}
+.wrapper{   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 22%;
+    height: 320px;
+    /* background-color: lightcoral; */
+}
+.wrapper a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+a .non-veg-item-image{
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    /* background-color: yellow; */
+    height: 80%;
+} 
+.non-veg-item-image img{
+    width: 100%;
+    /* margin-bottom: 0; */
+}
+.item-name{
+    margin-top: 0px;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+/*------Delivery-section------*/
+.delivery{
+    display: flex;
+    width: 100%;
+    margin-top: 60px;
+}
+.delivery-desc{
+    padding: 40px;
+    width: 60%;
+/*    background-color: red;*/
+}
+.delivery-desc h1{
+    margin-top: 80px;
+    color: green;
+}
+.delivery-desc p{
+    color: grey;
+}
+.order-btn{
+    margin-top:40px;
+}
+.order-btn a{
+    margin-top: 120px;
+    padding: 12px 20px;
+    background-color: green;
+    border-radius: 6px;
+    color: white;
+    font-size: 18px;
+    box-shadow: 2px 1px 8px black;
+}
+.order-btn a:hover{
+    background-color: orange;
+}
+.deliver-img{
+    padding: 40px;
+}
+
+
+
+/*-----Footer-----*/
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    background: linear-gradient(greenyellow,lightgreen);
+}
+.footer-container{
+    display: flex;
+    width: 100%;
+    height: 100%;
+/*    background-color: pink;*/
+}
+.footer-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 90%;
+    height: 100%;
+/*    background-color: grey;*/
+}
+.footer-logo{
+    width: 30%;
+/*    background-color: green;*/
+}
+.footer-logo img{
+    width: 100%;
+}
+.footer-desc ul p{
+    margin-bottom: 10px;
+    color: green;
+}
+.footer-desc ul li a{
+    color: black;
+}
+.footer-desc ul li a:hover{
+    color: grey;
+}
+.footer-desc ul{
+    line-height: 25px;
+}
+.footer-links{
+    display: flex;
+    align-items: center;
+    width: 10%;
+}
+.footer-links ul li a{    
+    font-size: 32px;
+    color: black;
+}
+.footer-links ul li a:hover{
+    color: green;
+}
+.copyright{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 40px;
+    background-color: yellowgreen;
+    color: white;
+    border-top: 1px solid;
+}
+
+
+/* -------------------------------- Chicken Biryani------------------ */
+.food{
+    display: flex;
+    margin-top: 40px;
+    padding: 40px;
+    /* background-color: yellow; */
+}
+.food_img{
+    width: 520px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s;
+}
+.food_img:hover{
+    scale: 1.12;
+}
+.food_content{
+    padding: 20px;
+}
+.food_content h2{
+    margin-bottom: 10px;
+    color: green;
+}
+.rating{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(8, 85, 8);
+    width: 40px;
+    padding: 4px 6px;
+    border-radius: 4px;
+    color: #fff;
+    font-weight:600;
+    margin: 0;
+}
+.rating span{
+    font-size: 12px;
+}
+.food_content h3{
+    margin-top: 20px;
+    color: #fff;
+    background-color: orange;
+    background-color: green;
+    padding: 2px;
+    width: 150px;
+    text-align: center;
+    border-radius: 8px;
+    font-weight: bold;
+}
+.food_content a{
+    background-color: green;
+    background-color: orange;
+    padding: 8px 10px;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 22px;
+    font-weight: 800;
+    margin-top: 40px;
+
+}
