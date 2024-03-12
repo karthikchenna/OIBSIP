@@ -1,0 +1,253 @@
+/* Laptop and Tablet */
+@media (max-width: 1024px) and (min-width: 0px) {
+    body{
+        background-color: #f9f9f9;
+        min-height: 100vh;
+        overflow-x: hidden;
+    }
+    .logo{
+        font-size: 1.4rem;
+        margin-right: 140px;
+    }
+    .nav-links ul li a{
+        padding: 3px 10px;
+        border-radius: 20px;
+        margin: 0px 5px;
+        font-weight: 600;
+    }
+    .about{
+        padding: 30px 100px;
+    }
+    .abt-img{
+        width: 45%;
+    }
+    .abt-content{
+        width: 60%;
+    }
+    .abt-content h2{
+        font-size: 2rem;
+        margin-bottom: 20px;
+    }
+    .abt-content p{
+        font-size: 1.1rem;
+        padding-bottom: 20px;
+    }
+    .education h2{
+        font-size: 2rem;
+    }
+    .edu-content-img{
+        width: 15%;
+    }
+    .edu-content-img img{
+        height: 70px
+    }
+    .education h2{
+        font-size: 2rem;
+    }
+    .edu-cotent h4{
+        font-size: 1.2rem;
+    }
+    .edu-cotent h2{
+        font-size: 1.5rem;
+    }
+    .edu-cotent h3{
+        color: #359381;
+    }
+    .edu-cotent p{
+        font-size: 0.8rem;
+    }
+    .skills h2{
+        font-size: 2rem;
+    }
+    .projects h2{
+        font-size: 2rem;
+        margin-bottom: 30px;
+    }
+    .card-wrapper{ 
+        column-gap: 40px;
+    }
+    .out{
+        width: 200px;
+        height: 270px;
+    }
+    .out h4{
+        font-size: 1rem;
+        margin-bottom: 20px;
+    }
+    .out p{
+        font-size: 0.8rem;
+    }
+    .flex b{
+        font-size: 0.9rem;
+    }
+    .contact{
+        background-color: #003329;
+    }
+    .contact-title h2{
+        font-size: 2rem;
+        margin-bottom: 40px;
+    }
+    .contact-card{
+        height: 100px;
+        width: 100px;
+    }
+    .contact-card   i{
+        font-size: 4rem;
+    }
+}
+
+
+
+
+/* For Mobile phones */
+@media (max-width: 425px) and (min-width: 0px) {
+    .bg_images{
+        display: none;
+    }
+    #plant{
+        display: none;
+    }
+    .home{
+        background-color: #003329;
+    }
+    header{
+        display: flex;
+        justify-content: space-between;
+        padding: 20px 30px;
+        /* background-color: red; */
+    }
+    .logo{
+        color: #fff;
+        /* margin-right: 20px; */
+    }
+    #menu-list{
+        display: none;
+    }
+    /* ------toggle button----- */
+    .menu{
+        font-size: 1.6rem;
+        color: #fff;
+        display: block;
+    }
+
+    .text-1{
+        font-size: 1.8rem;
+    }
+    #text-2{
+        text-align: center;
+        font-size: 2.4rem;
+        padding: 5px;
+        border-radius: 12px;
+    }
+
+    .about{
+        display: flex; 
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 40px;
+    }
+
+    .abt-img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* background-color: yellow; */
+        width: 80%;
+    }
+    .abt-img img{
+        width: 100%;        
+    }
+    .abt-content{
+        width: 100%;
+    }
+    .abt-content h2{
+        font-size: 2rem;
+        margin-block: 20px;
+    }
+    .abt-content p{
+        font-size: 1rem;
+    }
+    .abt-content a{
+        padding: 8px 15px;
+        border-radius: 12px;
+        font-size: 1.2rem;
+    }
+    .education{
+        padding:  40px;
+    }
+    .education h2{
+        font-size: 2rem;
+    }
+    .edu-container{
+        padding-left: 0px;
+        margin-block: 20px;
+    }
+    .edu-content-img{
+        width: 10%;
+        margin-right: 20px;
+    }
+    .edu-content-img img{
+        height: 50px
+    }
+    .edu-cotent h4{
+        font-size: 0.8rem;    
+    }
+    .edu-cotent h2{
+        font-size: 1rem;
+    }
+    .edu-cotent h3{
+        font-size: 0.8rem;
+    }
+    .skills{
+        padding:  40px;
+    }
+    .skill-container{
+        flex-direction: column;
+    }
+    .skill-content{
+        width: 100%;
+    }
+    .projects{
+        padding: 40px 60px;
+    }
+    .projects h2{
+        font-size: 2rem;
+        margin-bottom: 40px;
+    }    
+    .out{
+        width: 300px;
+        height: 370px;
+    }
+    .out h4{
+        font-size: 1.2rem;
+        margin-bottom: 20px;
+    }
+    .out p{
+        font-size: 1rem;
+    }
+    .flex b{
+        font-size: 1.2rem;
+    } 
+    .contact-title h2{
+        font-size: 2rem;
+        margin-bottom: 20px;
+    }
+    .contact-card{
+        height: 60px;
+        width: 60px;
+    }
+    .contact-card   i{
+        font-size: 2.5rem;
+    }
+    footer{
+        margin-top: 30px;
+        height: 40px;
+        color: white;
+        font-size: 0.7rem;
+    }
+
+
+    
+
+}

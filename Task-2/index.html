@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="responsive.css"> -->
+    <link rel="stylesheet" href="responsive2.css">
+    <title>Karthik | Portfolio</title>
+</head>
+
+<body>
+
+    <header>
+        <h2 class="logo">Karthik</h2> 
+        <nav class="nav-links menu--active">
+            <ul id="menu-list">
+                <li><a href="#" class="active">Home</a> </li>
+                <li><a href="#about">About</a> </li>
+                <li><a href="resume.pdf" target="_blank">Resume</a> </li>
+                <li><a href="#contact-section">Contact</a> </li>
+            </ul>
+            <div class="menu" id="menu">
+                <i class='bx bx-menu' onclick="togleMenu()"></i>
+            </div>
+        </nav>
+        <!-- <div class="menu" id="menu">
+            <i class='bx bx-menu' onclick="togleMenu()"></i>
+        </div> -->
+        
+    </header>
+
+<!-- ----------------------Home Section--------------->
+    <section class="home">
+        <div class="bg_images">
+            <img src="hill1.png" id="hill1">
+            <img src="hill2.png" id="hill2">
+            <img src="hill3.png" id="hill3">
+            <img src="hill4.png" id="hill4">
+            <img src="hill5.png" id="hill5">
+            <img src="tree.png" id="tree">
+            <img src="leaf.png" id="leaf">
+        </div>
+        <div id="text">
+            <h4 class="text-1">Hey! I am</h4>
+            <h2 id="text-2">Chenna Sai Karthik</h2>
+            <h4 class="text-1">I'm a <span>Web Developer</span></h4>
+        </div>
+        <img src="plant.png" id="plant">      
+    </section>
+
+
+<!-- --------------------About Section---------------- -->
+    <section class="about" id="about">
+        <div class="abt-img">
+            <img src="PP.jpeg" alt="photo">
+        </div>
+        <div class="abt-content">
+            <h2>About Me</h2>
+            <p>I'm Chenna Sai Karthik a B.Tech student at Sri Indu College of Engineering and Technology, Computer Science Department. I was born and raised in Telangana.</p>
+
+            <p>I'm a dynamic and motivated programmer with a passion for technology and keen interest in software and web development.</p>
+
+            <p>I did Diploma in Electrical and Electronic Engineering from State Board of Technical Education and Training</p>
+
+            <p>I like to travel. I believe travelling gives you a new perspective to everything.</p>
+            <a href="resume.pdf" target="_blank">Download CV</a>
+    
+        </div>
+    </section>
+
+<!-- -------------------Education  Section--------- -->
+    <section class="education">        
+        <h2>Education</h2>
+        <div class="edu-container" id="edu">
+            <div class="edu-content-img">
+                <img src="btech.png">
+            </div>
+                <div class="edu-cotent">
+                    <h4 class="edu-year">2022-2025</h4>
+                    <h2 class="edu-qualification">Bachelor of Technology in Information Technology</h2>
+                    <h3 class="edu-institute">Sri Indu College of Engineering and Technology</h3>
+                </div>
+            </div>
+
+            <div class="edu-container">
+                <div class="edu-content-img">
+                    <img src="diploma.png">
+                </div>
+                <div class="edu-cotent">
+                    <h4 class="edu-year">2019-2022</h4>
+                    <h2 class="edu-qualification">Diploma in Elcetrical and Electronic Engineering</h2>
+                    <h3 class="edu-institute">State Board of Technical Education and Training </h3>
+                    <p>with 8.5 CPGA</p>
+                </div>
+            </div>
+
+        <div class="edu-container">
+            <div class="edu-content-img">
+                <img src="ssc.png">
+            </div>
+            <div class="edu-cotent">
+                <h4 class="edu-year">2018-2019</h4>
+                <h2 class="edu-qualification">SSC</h2>
+                <h3 class="edu-institute">Sai Krishnaveni High School</h3>
+                <p>with 9.7 CPGA</p>
+            </div>
+        </div>
+    </section>
+
+<!-- ----------------Skills Section--------------------->
+    <section class="skills"> 
+        <h2>Skills</h2>   
+        <div class="skill-container">
+            <div class="skill-content">
+                <div class="skill-box">
+                    <span class="title">HTML</span>
+                    <div class="skill-bar">
+                        <span class="skill-per html">
+                            <span class="tooltip">90%</span>
+                        </span>
+                    </div>
+                </div>  
+
+                <div class="skill-box">
+                    <span class="title">CSS</span>
+                    <div class="skill-bar">
+                        <span class="skill-per css">
+                            <span class="tooltip">80%</span>
+                        </span>
+                    </div>
+                </div>  
+
+                <div class="skill-box">
+                    <span class="title">JavaScript</span>
+                    <div class="skill-bar">
+                        <span class="skill-per js">
+                            <span class="tooltip">70%</span>
+                        </span>
+                    </div>
+                </div>            
+            </div>
+
+
+            <div class="skill-content">
+                <div class="skill-box">
+                    <span class="title">Python</span>
+                        <div class="skill-bar">
+                            <span class="skill-per python">
+                            <span class="tooltip">75%</span>
+                        </span>
+                    </div>
+                </div>  
+
+                <div class="skill-box">
+                    <span class="title">Java</span>
+                    <div class="skill-bar">
+                        <span class="skill-per java">
+                            <span class="tooltip">65%</span>
+                        </span>
+                    </div>
+                </div>  
+
+                <div class="skill-box">
+                    <span class="title">C</span>
+                    <div class="skill-bar">
+                        <span class="skill-per C">
+                            <span class="tooltip">70%</span>
+                        </span>
+                    </div>
+                </div>            
+            </div>
+                
+            </div>
+        </div>
+    </section>
+
+<!-- -------------Projects ------------------ -->
+    <section class="projects">
+        <h2>Projects</h2>   
+        <div class="card-wrapper">
+                <div class="out">
+                    <h4>Developed a ML Model for Dynamic Price Prediction</h4>
+                    <p>This model help retailers evaluate the potential impact of sales and estimate the right price for each product 
+                         they want to sell it in a certain period of time.</p>
+
+                    <div class="cover flex" style="background-image: url('project-ml.jpeg');">
+                        <b>Developed a ML Model for Dynamic Price Prediction</b>
+                    </div>
+                </div>
+
+                <div class="out">
+                    <h4>Temperature Converter</h4>
+                    <p>Temperature converter that converts the temperature from Fahrenheit to Celcius and vice-versa.
+                        The user will input temperature in either Fahrenheit or Celcius and press Convert button then the converted temperature
+                        will be displayed.
+                    </p>
+
+                    <div class="cover flex" style="background-image: url('temperature.png');">
+                        <b>Temperature Converter</b>
+                    </div>
+                </div>
+
+                <div class="out">
+                    <h4>Designed a Landing page for local store</h4>
+                    <p>A landing page for the local Wedding Store that helps to attract customer by showcasing their works, 
+                        available products and the services they provide. </p>
+
+                    <div class="cover flex" style="background-image: url('business.png')">
+                        <b>Designed a Landing page for local store</b>
+                    </div>
+                </div>
+
+                <div class="out">
+                    <h4>Calculator</h4>
+                    <p>A simple calculator that performs the arithmetic operations like Addition, Subtraction, Multiplication, Division.</p>
+
+                    <div class="cover flex" style="background-image: url('calculator.png')">
+                        <b>Calculator</b>
+                    </div>
+                </div>
+
+                <div class="out">
+                    <h4>Food Delivery</h4>
+                    <p>Web page for the Food Delivery that shows all the categories of food and the user can order the food from his location.</p>
+
+                    <div class="cover flex" style="background-image: url('food-website.png')">
+                        <b>Food Delivery</b>
+                    </div>
+                </div>
+
+                <div class="out">
+                    <h4>Personal Portfolio</h4>
+                    <p>A persona portfolio that displays my Educational Qualification, Skills, Projects and other information.
+                        The users can also Download my Resume or can contact me through various ways like e-mail, LinkedIn, Instagram, etc.
+                    </p>
+
+                    <div class="cover flex" style="background-image: url('portfolio.png')">
+                        <b>Personal Portfolio</b>
+                    </div>
+                </div>
+        
+        </div>        
+    </section>
+
+    <!-- --------------Contact Section----------------->
+    <section class="contact" id="contact-section">
+        <div class="contact-title">
+            <h2>Contact Me</h2>
+        </div>
+
+        <div class="contact-container">
+            
+                <a href="tel:7799882917">
+                    <div class="contact-card">
+                        <h5><i class='bx bxs-phone'></i></h5> 
+                    </div>
+                </a>
+            
+                <!-- LinkedIn -->
+                <a href="https://www.linkedin.com/in/chenna-sai-karthik-37b42827b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="new">
+                    <div class="contact-card">
+                        <h5><i class='bx bxl-linkedin' ></i></h5>
+                    </div>        
+                </a>
+
+                <!-- Instagram -->
+                <a href="https://www.instagram.com/karthik._padmashali?igsh=MTB4ZGthbjRlcDZmcg%3D%3D&utm_source=qr" target="_blank">
+                    <div class="contact-card">
+                        <h5><i class='bx bxl-instagram-alt' ></i></h5>  
+                    </div>
+                </a>
+            
+                <!-- E-mail -->
+                <a href="mailto:karthikchenna789@gmail.com" target="_blank">
+                    <div class="contact-card">            
+                        <h5><i class='bx bxs-envelope' ></i></h5>
+                    </div>
+                </a>
+                            
+                <!-- Facebook -->
+                <a href="https://www.facebook.com/profile.php?id=100007187011271&mibextid=opq0tG" target="_blank">
+                    <div class="contact-card">
+                        <h5><i class='bx bxl-facebook' ></i></h5>                
+                    </div>
+                </a>                
+                                                  
+        </div>                  
+        <footer>
+            <p>Copyright© 2024 &emsp;| &emsp;Created by Karthik</p>
+        </footer>
+    </section>
+    <script src="script.js"></script>
+</body>
+
+</html>
+
